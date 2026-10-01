@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1180" height="610" viewBox="0 0 1180 610"
+     role="img"
+     aria-label="Muhammad Afrasyab — Software and Web Developer profile"
+     preserveAspectRatio="xMidYMid meet">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset=".52" stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#EEF6FF"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2563EB"/>
+      <stop offset=".52" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+
+    <linearGradient id="portrait" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563EB"/>
+      <stop offset=".5" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#0891B2"/>
+    </linearGradient>
+
+    <radialGradient id="ambient" cx="32%" cy="28%" r="78%">
+      <stop offset="0" stop-color="#BFDBFE" stop-opacity=".72"/>
+      <stop offset=".48" stop-color="#DDD6FE" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#64748B" stroke-opacity=".055"/>
+    </pattern>
+
+    <pattern id="scan" width="1" height="8" patternUnits="userSpaceOnUse">
+      <rect width="1" height="1" fill="#2563EB" fill-opacity=".10"/>
+    </pattern>
+
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#0F172A" flood-opacity=".10"/>
+    </filter>
+
+    <clipPath id="portraitClip">
+      <rect x="54" y="136" width="376" height="306" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <!-- Canvas -->
+  <rect x="7" y="7" width="1166" height="596" rx="24"
+        fill="url(#bg)" stroke="#CBD5E1" stroke-opacity=".9"/>
+  <rect x="7" y="7" width="1166" height="596" rx="24" fill="url(#ambient)"/>
+  <rect x="7" y="7" width="1166" height="596" rx="24" fill="url(#grid)"/>
+
+  <!-- Soft decorative glow -->
+  <circle cx="170" cy="220" r="155" fill="#3B82F6" fill-opacity=".06" filter="url(#soft)">
+    <animate attributeName="opacity" values=".55;1;.55" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="980" cy="470" r="175" fill="#7C3AED" fill-opacity=".055" filter="url(#soft)">
+    <animate attributeName="opacity" values="1;.45;1" dur="10s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Editor header -->
+  <rect x="7" y="7" width="1166" height="55" rx="24"
+        fill="#FFFFFF" fill-opacity=".86" filter="url(#shadow)"/>
+  <path d="M7 62H1173" stroke="#CBD5E1"/>
+
+  <circle cx="31" cy="34" r="6" fill="#EF4444"/>
+  <circle cx="51" cy="34" r="6" fill="#F59E0B"/>
+  <circle cx="71" cy="34" r="6" fill="#10B981"/>
+
+  <text x="96" y="39" fill="#334155"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+        font-size="14">afrasyab@developer:~</text>
+
+  <text x="520" y="39" fill="#94A3B8"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+        font-size="12">profile.config</text>
+
+  <rect x="1030" y="20" width="105" height="28" rx="14"
+        fill="#10B981" fill-opacity=".08" stroke="#10B981" stroke-opacity=".35"/>
+  <circle cx="1048" cy="34" r="4" fill="#10B981">
+    <animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="1060" y="39" fill="#047857"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+        font-size="12">ONLINE</text>
+
+  <!-- LEFT -->
+  <rect x="31" y="76" width="420" height="500" rx="22"
+        fill="#FFFFFF" fill-opacity=".58"
+        stroke="#CBD5E1" filter="url(#shadow)"/>
+
+  <text x="57" y="108" fill="#2563EB"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+        font-size="12" letter-spacing="2">VISUAL.MAP</text>
+
+  <text x="328" y="108" fill="#94A3B8"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+        font-size="10">ASCII / PROFILE</text>
+
+  <path d="M57 123H425" stroke="#E2E8F0"/>
+
+  <!-- ASCII visual treatment -->
+  <g clip-path="url(#portraitClip)"
+     fill="url(#portrait)"
+     font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+     font-size="10.5" letter-spacing="1.2">
+    <text x="64" y="154">              .·:+*#%%%%%%#*+:·.              </text>
+    <text x="64" y="166">           .:+*#%%@@@@@@@@%%#*+:.           </text>
+    <text x="64" y="178">         :+*#%%@@@@@@@@@@@@%%#*+:         </text>
+    <text x="64" y="190">       .*#%%@@@@@%%%%%%@@@@@%%#*.       </text>
+    <text x="64" y="202">      :#%%@@@@%%#****#%%@@@@%%#:      </text>
+    <text x="64" y="214">     :#%@@@@%%*+::::+*%%@@@@%#:      </text>
+    <text x="64" y="226">    .#%@@@@%#+.      .+#%@@@@%#.    </text>
+    <text x="64" y="238">    *%@@@@%*:   .:::.   :*%@@@@%*    </text>
+    <text x="64" y="250">   .%@@@@%+.   :*%%*:   .+%@@@@%.   </text>
+    <text x="64" y="262">   :%@@@@%:    :%@@%:    :%@@@@%:   </text>
+    <text x="64" y="274">   *%@@@@%:    .+%%+.    :%@@@@%*   </text>
+    <text x="64" y="286">   #@@@@@%:      ..      :%@@@@@#   </text>
+    <text x="64" y="298">   %@@@@@%*.            .*%@@@@@%   </text>
+    <text x="64" y="310">   %@@@@@@#+.  .::::.  .+#@@@@@@%   </text>
+    <text x="64" y="322">   #@@@@@@%#*+......+*#%@@@@@@#   </text>
+    <text x="64" y="334">   *%@@@@@@@@%%####%%@@@@@@@@%*   </text>
+    <text x="64" y="346">   :%@@@@@@@@@@@@@@@@@@@@@@@@%:   </text>
+    <text x="64" y="358">    *%@@@@@@@@@@@@@@@@@@@@@@%*    </text>
+    <text x="64" y="370">     *%@@@@@@@@@@@@@@@@@@@@%*     </text>
+    <text x="64" y="382">      +#%@@@@@@@@@@@@@@@@%#+      </text>
+    <text x="64" y="394">       :*#%%@@@@@@@@%%#*:       </text>
+    <text x="64" y="406">        .:+*#%%%%%%#*+:.        </text>
+    <text x="64" y="418">           ──╱╲────╱╲──           </text>
+    <text x="64" y="430">        ┌── TERMINAL ──┐        </text>
+    <text x="64" y="442">        │ BUILD · SHIP │        </text>
+    <text x="64" y="454">        └──────────────┘        </text>
+    <animate attributeName="opacity" values="0;.2;.55;1" dur="2.2s" fill="freeze"/>
+  </g>
+
+  <rect x="57" y="137" width="368" height="5" fill="url(#scan)" opacity=".55">
+    <animate attributeName="y" values="137;462;137" dur="8s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="57" y="487" fill="#0F172A"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+        font-size="18" font-weight="700">MUHAMMAD AFRASYAB</text>
+
+  <text x="57" y="512" fill="#2563EB"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+        font-size="12">WEB DEVELOPER · DIGITAL SOLUTIONS</text>
+
+  <text x="57" y="541" fill="#64748B"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+        font-size="11">~/profile $ build --ship</text>
+  <rect x="230" y="531" width="7" height="13" fill="#2563EB">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="57" y="562" fill="#94A3B8"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+        font-size="10">engineering / design / automation / growth</text>
+
+  <!-- RIGHT -->
+  <rect x="474" y="76" width="675" height="500" rx="22"
+        fill="#FFFFFF" fill-opacity=".62"
+        stroke="#CBD5E1" filter="url(#shadow)"/>
+
+  <text x="503" y="108" fill="#2563EB"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+        font-size="12" letter-spacing="2">SYSTEM.INFO</text>
+
+  <text x="503" y="136" fill="#64748B"
+        font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace"
+        font-size="11">user@developer:~$ ./profile.sh</text>
+
+  <path d="M503 151H1120" stroke="#E2E8F0"/>
+
+  <text x="503" y="179" fill="#64748B" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">&gt; NAME</text>
+  <text x="645" y="179" fill="#0F172A" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="17" font-weight="700">Muhammad Afrasyab</text>
+
+  <text x="503" y="205" fill="#64748B" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">&gt; ROLE</text>
+  <text x="645" y="205" fill="#2563EB" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="14">Web Developer · Software / Digital</text>
+
+  <text x="503" y="231" fill="#64748B" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11">&gt; EXP</text>
+  <text x="645" y="231" fill="#334155" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="13">4+ years in WordPress development</text>
+
+  <!-- Services -->
+  <text x="503" y="263" fill="#2563EB" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" letter-spacing="1.5">SERVICES</text>
+  <text x="1018" y="263" fill="#94A3B8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9">// DIGITAL SOLUTIONS</text>
+
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="10.5">
+    <rect x="503" y="276" width="139" height="30" rx="9" fill="#2563EB" fill-opacity=".055" stroke="#2563EB" stroke-opacity=".25"/><text x="516" y="295" fill="#1D4ED8">WordPress</text>
+    <rect x="649" y="276" width="139" height="30" rx="9" fill="#7C3AED" fill-opacity=".055" stroke="#7C3AED" stroke-opacity=".28"/><text x="662" y="295" fill="#6D28D9">Custom Web</text>
+    <rect x="795" y="276" width="139" height="30" rx="9" fill="#0891B2" fill-opacity=".055" stroke="#0891B2" stroke-opacity=".28"/><text x="808" y="295" fill="#0E7490">Mobile Apps</text>
+    <rect x="941" y="276" width="178" height="30" rx="9" fill="#2563EB" fill-opacity=".055" stroke="#2563EB" stroke-opacity=".25"/><text x="954" y="295" fill="#1D4ED8">Desktop Applications</text>
+
+    <rect x="503" y="313" width="139" height="30" rx="9" fill="#7C3AED" fill-opacity=".055" stroke="#7C3AED" stroke-opacity=".28"/><text x="516" y="332" fill="#6D28D9">Shopify</text>
+    <rect x="649" y="313" width="139" height="30" rx="9" fill="#0891B2" fill-opacity=".055" stroke="#0891B2" stroke-opacity=".28"/><text x="662" y="332" fill="#0E7490">SEO</text>
+    <rect x="795" y="313" width="139" height="30" rx="9" fill="#2563EB" fill-opacity=".055" stroke="#2563EB" stroke-opacity=".25"/><text x="808" y="332" fill="#1D4ED8">UI / UX</text>
+    <rect x="941" y="313" width="178" height="30" rx="9" fill="#7C3AED" fill-opacity=".055" stroke="#7C3AED" stroke-opacity=".28"/><text x="954" y="332" fill="#6D28D9">Social Media Design</text>
+
+    <rect x="503" y="350" width="139" height="30" rx="9" fill="#0891B2" fill-opacity=".055" stroke="#0891B2" stroke-opacity=".28"/><text x="516" y="369" fill="#0E7490">AI Video</text>
+    <rect x="649" y="350" width="139" height="30" rx="9" fill="#2563EB" fill-opacity=".055" stroke="#2563EB" stroke-opacity=".25"/><text x="662" y="369" fill="#1D4ED8">Amazon Setup</text>
+    <rect x="795" y="350" width="139" height="30" rx="9" fill="#7C3AED" fill-opacity=".055" stroke="#7C3AED" stroke-opacity=".28"/><text x="808" y="369" fill="#6D28D9">Maintenance</text>
+    <rect x="941" y="350" width="178" height="30" rx="9" fill="#0891B2" fill-opacity=".055" stroke="#0891B2" stroke-opacity=".28"/><text x="954" y="369" fill="#0E7490">Speed / Optimization</text>
+  </g>
+
+  <path d="M503 393H1120" stroke="#E2E8F0"/>
+
+  <!-- Stack -->
+  <text x="503" y="417" fill="#2563EB" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" letter-spacing="1.5">TECH.STACK</text>
+  <text x="1040" y="417" fill="#94A3B8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9">// CORE TOOLS</text>
+
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9.5">
+    <g transform="translate(503,429)"><rect width="72" height="27" rx="13" fill="#2563EB" fill-opacity=".07" stroke="#2563EB" stroke-opacity=".25"/><text x="12" y="18" fill="#1D4ED8">HTML/CSS</text></g>
+    <g transform="translate(581,429)"><rect width="75" height="27" rx="13" fill="#7C3AED" fill-opacity=".07" stroke="#7C3AED" stroke-opacity=".28"/><text x="15" y="18" fill="#6D28D9">JavaScript</text></g>
+    <g transform="translate(662,429)"><rect width="48" height="27" rx="13" fill="#0891B2" fill-opacity=".07" stroke="#0891B2" stroke-opacity=".28"/><text x="15" y="18" fill="#0E7490">PHP</text></g>
+    <g transform="translate(716,429)"><rect width="63" height="27" rx="13" fill="#2563EB" fill-opacity=".07" stroke="#2563EB" stroke-opacity=".25"/><text x="16" y="18" fill="#1D4ED8">React</text></g>
+    <g transform="translate(785,429)"><rect width="67" height="27" rx="13" fill="#7C3AED" fill-opacity=".07" stroke="#7C3AED" stroke-opacity=".28"/><text x="14" y="18" fill="#6D28D9">Angular</text></g>
+    <g transform="translate(858,429)"><rect width="65" height="27" rx="13" fill="#0891B2" fill-opacity=".07" stroke="#0891B2" stroke-opacity=".28"/><text x="15" y="18" fill="#0E7490">Flutter</text></g>
+    <g transform="translate(929,429)"><rect width="65" height="27" rx="13" fill="#2563EB" fill-opacity=".07" stroke="#2563EB" stroke-opacity=".25"/><text x="15" y="18" fill="#1D4ED8">Laravel</text></g>
+    <g transform="translate(1000,429)"><rect width="58" height="27" rx="13" fill="#7C3AED" fill-opacity=".07" stroke="#7C3AED" stroke-opacity=".28"/><text x="15" y="18" fill="#6D28D9">Docker</text></g>
+    <g transform="translate(1064,429)"><rect width="55" height="27" rx="13" fill="#0891B2" fill-opacity=".07" stroke="#0891B2" stroke-opacity=".28"/><text x="15" y="18" fill="#0E7490">GitHub</text></g>
+  </g>
+
+  <path d="M503 471H1120" stroke="#E2E8F0"/>
+
+  <!-- Selected work -->
+  <text x="503" y="494" fill="#2563EB" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="11" letter-spacing="1.5">SELECTED.WORK</text>
+  <text x="1038" y="494" fill="#94A3B8" font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace" font-size="9">// PROJECTS</text>
+
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace">
+    <rect x="503" y="506" width="143" height="48" rx="10" fill="#FFFFFF" fill-opacity=".72" stroke="#CBD5E1"/>
+    <text x="514" y="526" fill="#0F172A" font-size="10.5">Alfalah Scholarship</text>
+    <text x="514" y="542" fill="#64748B" font-size="8.5">Education platform</text>
+
+    <rect x="654" y="506" width="143" height="48" rx="10" fill="#FFFFFF" fill-opacity=".72" stroke="#CBD5E1"/>
+    <text x="665" y="526" fill="#0F172A" font-size="10.5">Carescan</text>
+    <text x="665" y="542" fill="#64748B" font-size="8.5">Healthcare platform</text>
+
+    <rect x="805" y="506" width="143" height="48" rx="10" fill="#FFFFFF" fill-opacity=".72" stroke="#CBD5E1"/>
+    <text x="816" y="526" fill="#0F172A" font-size="10.5">AlvenzoTech</text>
+    <text x="816" y="542" fill="#64748B" font-size="8.5">Digital agency</text>
+
+    <rect x="956" y="506" width="163" height="48" rx="10" fill="#FFFFFF" fill-opacity=".72" stroke="#CBD5E1"/>
+    <text x="967" y="526" fill="#0F172A" font-size="10.5">Buraq City Kharian</text>
+    <text x="967" y="542" fill="#64748B" font-size="8.5">Real-estate project</text>
+  </g>
+
+  <!-- Border highlight -->
+  <rect x="8" y="8" width="1164" height="594" rx="24"
+        fill="none" stroke="url(#accent)" stroke-opacity=".28"
+        stroke-dasharray="60 2380">
+    <animate attributeName="stroke-dashoffset"
+             values="0;-2440" dur="9s" repeatCount="indefinite"/>
+  </rect>
+
+</svg>
